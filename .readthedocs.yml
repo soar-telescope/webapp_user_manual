@@ -1,0 +1,12 @@
+version: 2
+
+sphinx:
+    configuration: manual/conf.py
+
+formats: all
+
+python:
+    version: 3.8
+
+conda:
+    environment: environment.yml
