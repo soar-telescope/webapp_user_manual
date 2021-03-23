@@ -29,6 +29,8 @@ has the option of manually triggering certain process blocks.
 
    overview
    access
+   datadetail
+   settings
    screenshots
 
 .. toctree::

@@ -13,4 +13,13 @@ Instrument Scientist or by any trusted contact you have at SOAR Telescope.
 
 At the beginning of the semester all PIs are registered with their respective
 proposals. And they will receive an email that contains a link to set a safe
-password. Our backend does not allow simple or too common password.
+password. Our backend does not allow simple or too common password. In fact you
+will get the following messages.
+
+
+    - Your password can’t be too similar to your other personal information.
+    - Your password must contain at least 8 characters.
+    - Your password can’t be a commonly used password.
+    - Your password can’t be entirely numeric.
+
+.. image:: _static/screenshots/password_change.png
