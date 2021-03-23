@@ -12,4 +12,5 @@ The server is protected under a VPN connection that you can get from your
 Instrument Scientist or by any trusted contact you have at SOAR Telescope.
 
 At the beginning of the semester all PIs are registered with their respective
-proposals.
+proposals. And they will receive an email that contains a link to set a safe
+password. Our backend does not allow simple or too common password.
