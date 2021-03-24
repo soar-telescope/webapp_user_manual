@@ -31,6 +31,8 @@ has the option of manually triggering certain process blocks.
    access
    datadetail
    settings
+   collaborators
+   API Documentation <user_api_docs>
    screenshots
 
 .. toctree::
@@ -45,3 +47,4 @@ has the option of manually triggering certain process blocks.
    :caption: Developer's Guide:
 
    API Overview <api_overview>
+   Examples <api_examples>
