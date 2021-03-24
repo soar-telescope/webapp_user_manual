@@ -6,6 +6,10 @@
 Welcome to Live Pipeline User Manual
 ====================================
 
+.. image:: https://readthedocs.org/projects/gsp/badge/?version=latest
+  :target: https://soardocs.readthedocs.io/projects/gsp/en/latest/?badge=latest
+  :alt: Documentation Status
+
 The Goodman Spectroscopic Pipeline Live is a web implementation of the
 `Goodman Spectroscopic Pipeline <https://github.com/soar-telescope/goodman_pipeline>`_ package.
 In summary the reduction process has been broken in several parts that might
