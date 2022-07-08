@@ -18,7 +18,7 @@ It is meant to be simple to understand but we will go into explaining every part
 
 .. figure:: _static/screenshots/data_table.png
 
-   Table view, better for filtering data.
+   Search view, implements some filtering functions.
 
 For a detailed exploration we will divide the view in several subsections, for
 their global position please consider the following image.
@@ -26,7 +26,7 @@ their global position please consider the following image.
 
 .. figure:: _static/screenshots/data_detail_annotated.png
 
-   Detail: 1. Main navigation bar. 2. Access to user controls and information. 3. Quick access to files. 4. Related or child files. 5. Contextual actions 6. Visualization area.
+   Detail: 1. Access to user controls and information. 2. Main navigation bar. 3. Quick access to files. 4. Related or child files. 5. Toggle header view. 6. Visualization area. 7. Visualization options. 8. Contextual actions. 9. Comments.
 
 
 Main Navigation Bar
@@ -38,6 +38,9 @@ An always present navigation bar allows you to access:
 
 Data Visualization
   The view were you can visualize data as it arrives as well as trigger actions.
+
+Search
+  Changes to Search view and implements filters.
 
 Proposals
    Where you can see the proposals details, such as *Title*, *Abstract*,
@@ -59,7 +62,7 @@ User Controls
 
 .. figure:: _static/screenshots/user_controls.png
 
-By clicking the blue button you get access to some user details and settings.
+By clicking the username button you get access to some user details and settings.
 Also you can change some preferences.
 
 
@@ -70,8 +73,7 @@ File Index
 ==========
 
 This area allows you to navigate the files, they are ordered from newest to
-oldest, if you want to filter the data you should go to table mode by clicking
-**View as Table**.
+oldest, if you want to filter the data you should go to **Search**.
 
 In this area you can also see only combined calibration files such as, master ``BIAS`` and master ``FLAT``, those
 are visible to everyone.
@@ -87,6 +89,20 @@ All files are indexed by its raw parent file. Every file that was derived from
 that parent it is treated as child and are listed along this section. The
 buttons are tab handles.
 
+Header
+======
+
+.. figure:: _static/screenshots/data_header.png
+
+Will make the header visible in a searchable table.
+
+
+Visualization Choices
+=====================
+
+.. figure:: _static/screenshots/visualization_choices.png
+
+Allows to select a different color map for images, show or not saturated pixels and an image title.
 
 Contextual Actions
 ==================
@@ -95,21 +111,17 @@ Contextual Actions
 
 This area is where you can trigger actions.
 
-Show Header
-  Will make the header visible in a searchable table.
 
-Calibrate Wavelength
-  It's an action that changes according the type of file that is no display.
-  For instance for a raw file will be **Reduce Raw File**. The drop down menu
-  will take you to another view where you can select which comparison lamp you
-  want to use for target extraction or wavelength calibration.
+Download
+  For download the FITS file.
 
 Advanced Visualization
   Takes you to another view where you can adjust the sampling limits for
   images. Or change the color map.
 
-Download
-  For download the FITS file.
+Calibrate Flux
+  It's an action that changes according the type of file that is on display.
+  For instance for a raw file will be **Reduce Raw File**.
 
 Delete
   Only possible for processed files. Raw files can't be deleted.
