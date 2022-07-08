@@ -1,8 +1,6 @@
 Screenshots
 ###########
 
-.. image:: _static/screenshots/index.png
-
 .. image:: _static/screenshots/login.png
 
 .. image:: _static/screenshots/logged_in_index.png

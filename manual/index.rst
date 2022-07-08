@@ -22,7 +22,7 @@ has the option of manually triggering certain process blocks.
 
 .. note::
   The user get access permission by proposal association. We ask our users not to
-  share their credentials. We make it very easy for PIs to add new collaborators.
+  share their credentials. We aim to make it very easy for PIs to add new collaborators.
 
 .. image:: _static/screenshots/data_detail.png
 
