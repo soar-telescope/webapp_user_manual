@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'GSP Live User Manual'
-copyright = '2021, Simon Torres'
-author = 'Simon Torres'
+copyright = '2021, Simón Torres'
+author = 'Simón Torres'
 license = 'bsd3'
 
 # The full version, including alpha/beta/rc tags
@@ -50,7 +50,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 pygment_style = 'sphinx'
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'pydata_sphinx_theme'
 
 html_logo = '_static/soar_logo.png'
 
