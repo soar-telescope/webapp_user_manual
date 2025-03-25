@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'GSP Live User Manual'
-copyright = '2021, Simón Torres'
+copyright = '2021, NOIRLab'
 author = 'Simón Torres'
 license = 'bsd3'
 
